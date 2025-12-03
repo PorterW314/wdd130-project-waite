@@ -27,7 +27,21 @@ h1{display: inline;}
 .exp_p{padding-left: 360px;}
 .exp_g{padding-left: 550px;}
 
-footer{display: grid; grid-template-columns: repeat(12, 1fr);}
+.exp_para{display: flex; font-size: 1.5em;}
+.exp_para p{width: 500px;}
+.para_piano{padding-left: 220px;}
+.para_game{padding-left: 260px;}
+
+.buttons{display: grid; grid-template-columns: 1fr 1fr; font-size: 2em;}
+#explore_btn_piano{margin-left: 335px; margin-right: 330px; padding-left: 75px; padding-right: 75px; background-color: bisque;}
+#explore_btn_piano a{text-decoration: none; color: #000000;}
+
+#explore_btn_game{margin-left: 200px; margin-right: 300px; padding-left: 75px; padding-right: 75px; background-color: bisque;}
+#explore_btn_game a{text-decoration: none; color: #000000;}
+
+footer{display: grid; grid-template-columns: repeat(12, 1fr); align-items: center;}
+footer p{grid-column: 6/7;}
+footer h4{grid-column: 12;}
 .footer_logo{padding-left: 20px; padding-bottom: 20px;}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
