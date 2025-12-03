@@ -1,0 +1,32 @@
+body{background: repeating-linear-gradient( to right,#000000,#000000 20px, #3A5A78 20px, #3A5A78 140px); color: white;}
+header{display: grid; grid-template-columns: repeat(11, 1fr); max-width: 90%; margin: 0 auto; padding-top: 30px; align-items: center;}
+
+.links{text-decoration: none; color: white;}
+.links :hover{text-decoration: overline; color: rgb(242, 211, 173);}
+
+.logo{grid-column: 6/7;}
+
+.search_logo{grid-column: 11;}
+
+#intro{display: grid; grid-template-columns:  1fr 1fr; column-gap: 75px;}
+
+#intro div{width: 80%; margin-top: 140px; font-size: 1.5em; padding-bottom: 400px;}
+.heading{font-size: 2.5em; margin-bottom: -20px;}
+
+.main_img{padding-top: 80px; padding-left: 150px; width: 80%; height: 500px;}
+
+#para_section{max-width: 50%; margin: 0 auto; font-size: 1.5em; padding-bottom: 300px;}
+.para1{padding-bottom: 20px;}
+.para2{padding-bottom: 20px;}
+
+.piano_img{width: 600px; padding-left: 160px;}
+.gamming_img{width: 600px; padding-left: 160px;}
+
+h1{display: inline;}
+.exp_p{padding-left: 360px;}
+.exp_g{padding-left: 550px;}
+
+footer{display: grid; grid-template-columns: repeat(12, 1fr);}
+.footer_logo{padding-left: 20px; padding-bottom: 20px;}
+
+
