@@ -1,4 +1,3 @@
-/*background css*/
 body{background: repeating-linear-gradient( to right,#000000,#000000 20px, #3A5A78 20px, #3A5A78 140px); color: white;}
 
 header{display: grid; grid-template-columns: repeat(11, 1fr); max-width: 90%; margin: 0 auto; padding-top: 30px; align-items: center;}
