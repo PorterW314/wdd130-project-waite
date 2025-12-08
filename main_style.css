@@ -1,9 +1,9 @@
-body{background: repeating-linear-gradient( to right,#000000,#000000 20px, #3A5A78 20px, #3A5A78 140px); color: white;}
+body{background: repeating-linear-gradient( to right,#000000,#000000 20px, #3A5A78 20px, #3A5A78 140px); color: white; font-family: "Open-Sans", Arial, Helvetica, sans-serif;}
 
 header{display: grid; grid-template-columns: repeat(11, 1fr); max-width: 90%; margin: 0 auto; padding-top: 30px; align-items: center;}
 
 .links{text-decoration: none; color: white;}
-.links :hover{text-decoration: overline; color: rgb(242, 211, 173);}
+header h4 :hover{color: rgb(242, 211, 173); background-color: #000000; text-decoration: underline;}
 
 .logo{grid-column: 6/7;}
 
@@ -12,7 +12,7 @@ header{display: grid; grid-template-columns: repeat(11, 1fr); max-width: 90%; ma
 #intro{display: grid; grid-template-columns:  1fr 1fr; column-gap: 75px;}
 
 #intro div{width: 80%; margin-top: 140px; font-size: 1.5em; padding-bottom: 400px;}
-.heading{font-size: 2.5em; margin-bottom: -20px;}
+.heading{font-size: 2.5em; margin-bottom: -20px; font-family: "Montserrat", Arial, Helvetica, sans-serif;}
 
 .main_img{padding-top: 80px; padding-left: 150px; width: 80%; height: 500px;}
 
@@ -30,14 +30,16 @@ h1{display: inline;}
 .exp_para{display: flex; font-size: 1.5em;}
 .exp_para p{width: 500px;}
 .para_piano{padding-left: 220px;}
-.para_game{padding-left: 260px;}
+.para_game{padding-left: 280px;}
 
 .buttons{display: grid; grid-template-columns: 1fr 1fr; font-size: 2em;}
 #explore_btn_piano{margin-left: 335px; margin-right: 330px; padding-left: 75px; padding-right: 75px; background-color: bisque;}
 #explore_btn_piano a{text-decoration: none; color: #000000;}
+#explore_btn_piano :hover{color: rgb(242, 211, 173); background-color: #00000075; text-decoration: underline;}
 
 #explore_btn_game{margin-left: 200px; margin-right: 300px; padding-left: 75px; padding-right: 75px; background-color: bisque;}
 #explore_btn_game a{text-decoration: none; color: #000000;}
+#explore_btn_game :hover{color: rgb(242, 211, 173); background-color: #00000075; text-decoration: underline;}
 
 footer{display: grid; grid-template-columns: repeat(12, 1fr); align-items: center;}
 footer p{grid-column: 6/7;}
