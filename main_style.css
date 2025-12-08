@@ -3,7 +3,7 @@ body{background: repeating-linear-gradient( to right,#000000,#000000 20px, #3A5A
 header{display: grid; grid-template-columns: repeat(11, 1fr); max-width: 90%; margin: 0 auto; padding-top: 30px; align-items: center;}
 
 .links{text-decoration: none; color: white;}
-header a :hover{color: rgb(242, 211, 173); background-color: #000000;}
+header h4 :hover{color: rgb(242, 211, 173); background-color: #000000; text-decoration: underline;}
 
 .logo{grid-column: 6/7;}
 
@@ -35,11 +35,11 @@ h1{display: inline;}
 .buttons{display: grid; grid-template-columns: 1fr 1fr; font-size: 2em;}
 #explore_btn_piano{margin-left: 335px; margin-right: 330px; padding-left: 75px; padding-right: 75px; background-color: bisque;}
 #explore_btn_piano a{text-decoration: none; color: #000000;}
-#explore_btn_piano :hover{text-decoration: underline; color: rgb(116, 112, 104); background-color: #0000003a;}
+#explore_btn_piano :hover{color: rgb(242, 211, 173); background-color: #00000075; text-decoration: underline;}
 
 #explore_btn_game{margin-left: 200px; margin-right: 300px; padding-left: 75px; padding-right: 75px; background-color: bisque;}
 #explore_btn_game a{text-decoration: none; color: #000000;}
-#explore_btn_game :hover{text-decoration: underline; color: rgb(116, 112, 104); background-color: #0000003a;}
+#explore_btn_game :hover{color: rgb(242, 211, 173); background-color: #00000075; text-decoration: underline;}
 
 footer{display: grid; grid-template-columns: repeat(12, 1fr); align-items: center;}
 footer p{grid-column: 6/7;}
