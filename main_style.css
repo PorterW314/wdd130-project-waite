@@ -107,3 +107,38 @@ footer h4 .gaming{grid-column: 12; padding-left: 100px; text-decoration: none; c
     background-color: #000000;
     text-decoration: underline;
 }
+/* subpage 1 css */
+.main_thing {
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    margin: 30px auto;
+}
+.piano {
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    margin: 30px auto;
+}
+.songs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 100%;
+    gap: 35px;
+    padding: 15px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.subpage1-footer {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    max-width: 90%;
+    margin: 50px auto 20px;
+    padding-top: 30px;
+    align-items: center;
+    font-size: 1.5em;
+
+}
